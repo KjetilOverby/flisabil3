@@ -10,6 +10,7 @@ const ImageSection = () => {
   return (
     <div className={styles.container}>
       <TopComponent />
+
       <BoxComponent
         header="Bilsalg"
         icon={<GiCarKey style={{ color: "#73c086", fontSize: "3rem" }} />}

@@ -14,11 +14,12 @@
     ". top . . ."
     ". center center center ."
     ". box1 box2 box3 .";
+  position: relative;
 }
 @media screen and (max-width: 2150px) {
   .container {
     grid-template-rows: 5rem 10rem 1fr 20rem;
-    grid-template-columns: 18rem 1fr 1fr 1fr 18rem;
+    grid-template-columns: 12rem 1fr 1fr 1fr 12rem;
     height: 80vh;
   }
 }
