@@ -153,6 +153,11 @@ const HeaderComponent = () => {
           justify-content: space-between;
           align-items: center;
         }
+        @media screen and (max-width: 1150px) {
+          .tabContainer {
+            width: 35rem;
+          }
+        }
         @media screen and (max-width: 1000px) {
           .container {
             padding: 0 1rem;
@@ -161,6 +166,7 @@ const HeaderComponent = () => {
             justify-content: flex-end;
           }
         }
+
         @media screen and (max-width: 650px) {
           .logoContainer {
             width: 40rem;

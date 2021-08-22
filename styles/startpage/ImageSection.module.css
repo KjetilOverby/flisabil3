@@ -1,5 +1,5 @@
 .container {
-  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
     url("https://lh3.googleusercontent.com/pw/AM-JKLXEPyyr9SYZiLN4fEFLOBHrLmStqhbgSNyRF1HP9e_Bx-A2Joe0rSRwxYefd1VGOcq2t2vcsYcotklyun-hhgYY_DF7QnXJKoX1OddnPVeYsQDJuDIopF6sPQJl1z5mVNJ4LUqd_gzfiAyyiY293r6j=w1489-h838-no?authuser=0f");
   height: 70vh;
   background-repeat: no-repeat;
@@ -65,6 +65,7 @@
 }
 @media screen and (max-width: 950px) {
   .container {
+    min-height: 95rem;
     grid-template-columns: 1rem 1fr 1fr 1fr 1rem;
 
     grid-column-gap: 1rem;
@@ -80,7 +81,7 @@
 }
 @media screen and (max-width: 600px) {
   .container {
-    grid-template-rows: 2rem 20rem 10rem 22rem 22rem 22rem;
+    grid-template-rows: 2rem 15rem 10rem 22rem 22rem 22rem;
   }
 }
 @media screen and (max-height: 600px) {

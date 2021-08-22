@@ -69,15 +69,28 @@ const KontaktTextComponent = () => {
         .text2 {
           margin: 0;
         }
-        @media screen and (max-width: 1000px) {
+        @media screen and (max-width: 1325px) {
           .container {
             margin: 0 0 5rem 0;
             grid-template-columns: 1rem 1fr 1fr;
+            grid-row-gap: 2rem;
+            grid-template-columns: 5rem 20rem 20rem 1fr;
+          }
+        }
+        @media screen and (max-width: 1000px) {
+          .container {
+            margin: 0 0 5rem 0;
+            grid-template-columns: 4rem 1fr 1fr;
             grid-row-gap: 2rem;
             grid-template-areas:
               ". fc fc"
               ". sc sc"
               ". tc tc";
+          }
+        }
+        @media screen and (max-width: 756px) {
+          .container {
+            grid-template-columns: 1rem 1fr 1fr;
           }
         }
       `}</style>

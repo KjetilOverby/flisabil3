@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import engine from "../../../assets/car.webp";
+import engine from "../../../assets/parts.jpg";
 
 const Bildeler = () => {
   return (
