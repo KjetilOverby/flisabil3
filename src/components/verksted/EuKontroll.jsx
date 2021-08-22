@@ -31,7 +31,7 @@ const EuKontroll = () => {
       </div>
       <style jsx>{`
         .container {
-          margin-top: 6rem;
+          margin-top: 8rem;
         }
         .textEu1 {
           margin-bottom: 2rem;

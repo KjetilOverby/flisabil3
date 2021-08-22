@@ -59,7 +59,7 @@ const Bildeler = () => {
           grid-area: img;
           margin-top: 2rem;
         }
-        @media screen and (max-width: 1000px) {
+        @media screen and (max-width: 1200px) {
           .container {
             grid-column-gap: 0;
             grid-template-areas:
@@ -69,6 +69,7 @@ const Bildeler = () => {
           }
           .imgContainer {
             margin-bottom: 2rem;
+            margin-top: -8rem;
           }
         }
       `}</style>

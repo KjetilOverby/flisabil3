@@ -94,6 +94,7 @@ const VerkstedSection = () => {
 
         .textContainer {
           grid-area: text;
+          margin-bottom: 3rem;
         }
         @media (max-width: 2100px) {
           .container {

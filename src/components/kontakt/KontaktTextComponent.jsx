@@ -77,6 +77,7 @@ const KontaktTextComponent = () => {
             grid-template-columns: 5rem 20rem 20rem 1fr;
           }
         }
+
         @media screen and (max-width: 1000px) {
           .container {
             margin: 0 0 5rem 0;

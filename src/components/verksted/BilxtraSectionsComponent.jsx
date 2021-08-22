@@ -19,7 +19,7 @@ const BilxtraSectionsComponent = ({ header, text, atag, link, image }) => {
       <style jsx>{`
         .container {
           grid-column-gap: 8rem;
-          margin-top: 5rem;
+          margin-top: 4rem;
           display: grid;
           grid-template-columns: 1fr 1fr;
           grid-template-areas: "text img";
@@ -30,7 +30,7 @@ const BilxtraSectionsComponent = ({ header, text, atag, link, image }) => {
         .text-box {
           grid-area: text;
         }
-        @media screen and (max-width: 1000px) {
+        @media screen and (max-width: 1200px) {
           .container {
             grid-column-gap: 0;
             grid-template-areas:
@@ -38,7 +38,8 @@ const BilxtraSectionsComponent = ({ header, text, atag, link, image }) => {
               "img img";
           }
           .img-box {
-            margin-top: 2rem;
+            margin-top: 0rem;
+            margin-bottom: -6rem;
           }
         }
       `}</style>
