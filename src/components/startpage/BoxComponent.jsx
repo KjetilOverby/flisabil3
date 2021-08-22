@@ -21,9 +21,9 @@ const BoxComponent = ({ btn, header, icon, area, text, goto }) => {
           grid-area: ${area};
         }
         .header {
-          color: #9e9e9e;
+          color: #eeeeee;
           margin-left: 2rem;
-          font-weight: 100;
+          font-weight: 600;
           font-size: 2rem;
         }
         .headerContainer {
@@ -32,7 +32,7 @@ const BoxComponent = ({ btn, header, icon, area, text, goto }) => {
           align-items: center;
         }
         .text {
-          color: #9e9e9e;
+          color: #eeeeee;
           min-height: 5rem;
         }
         .textContainer {

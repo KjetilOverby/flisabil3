@@ -13,7 +13,7 @@ const ImageHeader = ({ header, image }) => {
           height: 15rem;
           background-repeat: no-repeat;
           background-size: cover;
-          background-position: 0 64%;
+          background-position: 0 50%;
           display: flex;
           align-items: center;
           justify-content: center;
