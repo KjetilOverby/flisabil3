@@ -6,7 +6,8 @@ const EuKontroll = () => {
       <div className="container">
         <h1>Eu-kontroll</h1>
         <p className="text textEu1">
-          Hos oss har vi fast lavpris på Eu-kontroll. Vi gir tilbud til
+          Vi tar eu-kontroll på alle type biler inntil 7500kg, og bobiler. Hos
+          oss har vi fast lavpris på Eu-kontroll. Vi gir tilbud til
           konkeransedyktige priser på eventuelle utbedringer som må tas og
           setter opp en time for deg hvis ønskelig. Sjekk når fristen på bilen
           din er for neste Eu-kontroll.

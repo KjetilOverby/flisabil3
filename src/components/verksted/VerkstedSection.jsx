@@ -6,6 +6,7 @@ import Bildeler from "./Bildeler";
 import BilxtraSectionsComponent from "./BilxtraSectionsComponent";
 import partsImage from "../../../assets/slitedeler.png";
 import mobilitetsgarantiImg from "../../../assets/mobilitetsgaranti.png";
+import Dekk from "./Dekk";
 
 const VerkstedSection = () => {
   return (
@@ -14,10 +15,10 @@ const VerkstedSection = () => {
         <div className="textContainer">
           <h1>Verksted</h1>
           <p className="text">
-            Flisa bil tilbyr reparasjon og service på alle type biler. Vi har
-            diagnoseverktøy, spesialverktøy og verkstedutstyr slik at din bil
-            får god oppfølging og pleie når den er på vårt verksted. Bestill
-            time på verksted i dag.
+            Flisa bil tilbyr reparasjon og service på alle type biler inntil
+            7500kg, og bobiler. Vi har diagnoseverktøy, spesialverktøy og
+            verkstedutstyr slik at din bil får god oppfølging og pleie når den
+            er på vårt verksted. Bestill time på verksted i dag.
           </p>
           <br />
           <p className="text">
@@ -60,6 +61,9 @@ const VerkstedSection = () => {
             image={mobilitetsgarantiImg}
           />
         </div>
+        <div className="dekk-container">
+          <Dekk />
+        </div>
       </div>
       <style jsx>{`
         .bildelerContainer {
@@ -75,7 +79,11 @@ const VerkstedSection = () => {
             ". text logo ."
             ". gar gar ."
             ". eu eu ."
-            ". del del .";
+            ". del del ."
+            ". dekk dekk .";
+        }
+        .dekk-container {
+          grid-area: dekk;
         }
         .euKontollContainer {
           grid-area: eu;
@@ -121,7 +129,8 @@ const VerkstedSection = () => {
               ". logo logo ."
               ". gar gar ."
               ". eu eu ."
-              ". del del .";
+              ". del del ."
+              ". dekk dekk .";
           }
         }
       `}</style>

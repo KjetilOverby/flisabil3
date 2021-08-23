@@ -16,7 +16,7 @@ const ImageSection = () => {
         icon={<GiCarKey style={{ color: "#73c086", fontSize: "3rem" }} />}
         area="box1"
         text="Ta en kikk på våre biler, vi har et bredt utvalg og mange prisklasser.
-        Vi tar gjerne i mot innbyttebil."
+        Vi tar gjerne i mot innbytte, vi kan også betale et passende mellomlegg i eventuellt dyrere bil."
         btn="Til bilsalg"
         goto="/bruktbiler"
       />
