@@ -35,6 +35,7 @@ const ImageSection = () => {
         text=" Vi er en del av Bilxtra, Vi tilbyr også finansiering/delbetaling
         rentefritt i 12 mnd. medBilxtra konto."
         btn="Til Bilxtra"
+        goto="https://bilxtra.no/"
       />
     </div>
   );

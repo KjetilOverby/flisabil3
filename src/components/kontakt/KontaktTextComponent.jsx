@@ -1,5 +1,7 @@
 import React from "react";
 import { FaFacebookSquare } from "react-icons/fa";
+import { HiPhone } from "react-icons/hi";
+import { GrMail } from "react-icons/gr";
 
 const KontaktTextComponent = () => {
   return (
@@ -7,10 +9,15 @@ const KontaktTextComponent = () => {
       <div className="container">
         <div className="first-container">
           <h1>Flisa Bil AS</h1>
-          <p className="text text2">Negardsveien 8</p>
-          <p className="sub-name">2270 Flisa</p>
-          <p className="sub-name">Tel: 62 95 19 10</p>
-          <p className="sub-name">Mail: flisabil@online.no</p>
+          <p className="sub-name">Negardsveien 8, 2270 Flisa</p>
+          <p className="sub-name">
+            <HiPhone style={{ marginRight: ".5rem", verticalAlign: "top" }} />{" "}
+            62 95 19 10
+          </p>
+          <a className="sub-name" href="mailto: flisabil@online.no">
+            <GrMail style={{ marginRight: ".5rem", verticalAlign: "top" }} />{" "}
+            flisabil@online.no
+          </a>
         </div>
         <div className="second-container">
           <h1>Kontaktpersoner</h1>

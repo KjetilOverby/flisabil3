@@ -42,7 +42,9 @@ const HeaderComponent = () => {
                   <Link href="/verksted">
                     <p className="tabs-mobile">Verksted</p>
                   </Link>
-                  <p className="tabs-mobile">Bilxtra</p>
+                  <Link href="https://bilxtra.no/">
+                    <p className="tabs-mobile">Bilxtra</p>
+                  </Link>
                   <Link href="/kontakt">
                     <p className="tabs-mobile">Kontakt Oss</p>
                   </Link>
@@ -73,7 +75,9 @@ const HeaderComponent = () => {
               <Link href="/verksted">
                 <p className="tabs">Verksted</p>
               </Link>
-              <p className="tabs">Bilxtra</p>
+              <Link href="https://bilxtra.no/">
+                <p className="tabs">Bilxtra</p>
+              </Link>
               <Link href="/kontakt">
                 <p className="tabs">Kontakt Oss</p>
               </Link>

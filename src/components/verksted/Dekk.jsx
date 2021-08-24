@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import dekk from "../../../assets/dekk.png";
+import dekk from "../../../assets/dekk.jpg";
 import superdaekLogo from "../../../assets/superdaek_logo.jpg";
 
 const Dekk = () => {
@@ -13,7 +13,7 @@ const Dekk = () => {
           <p className="text">
             Vi forhandler dekk og felger fra Superdaek. Og kan tilby dekkhotell
             for våre kunder.
-            <a href="https://bilxtra.no/kundesenter/klikk-og-hent/">her</a>
+            {/* <a href="https://bilxtra.no/kundesenter/klikk-og-hent/">her</a> */}
           </p>
           <Image src={superdaekLogo} />
         </div>
