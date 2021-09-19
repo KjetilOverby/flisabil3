@@ -6,21 +6,26 @@ const TextSection = () => {
     <div className={styles.container}>
       <h1 className={styles.header}>Kort om oss</h1>
       <p className={styles.text}>
-        Flisa Bil ble startet i 1985, den gang under navnet Solør bil og fritid.
-        Den gang holdt de til i andre etasje hos Flisa Karosseriverksted, og
-        campingvogner og reparasjoner var en stor del av virksomheten. I 1999
-        flyttet de inn i dagens lokaler i Negardsveien 8, hvor Fredriksen Bil
-        tidligere hadde hatt tilhold. I dag er salget av campingvogner en saga
-        blott, men bruktbilsalget er fortsatt viktig for den tradisjonsrike
-        Åsnes-bedriften. – Vi har rundt 40 bruktbiler inne i alle prisklasser.
-        Alt fra rimelige biler og opp til biler i prisklasse 300.000 til
-        400.000.
+        Flisa Bil har drevet bilsalg siden 1985. Vi har solgt/kjøpt biler i alle
+        prisklasser siden den gang. Mest til kunder her i distriktet men også
+        mer og mer over hele norge. Spesielt etterhvert som nettet har blitt mer
+        og mer utnyttet. Avstanden er ikke lenger noe problem om du bor i
+        Kirkenes eller Stavanger. Vår gunstige beliggenhet 1,5 time fra Oslo
+        Gardermoen, og videre med gode bussforbindelser. Eller til Elverum med
+        tog, og buss videre en snau time, gjør at det er enkelt å hente bil hos
+        oss.
+      </p>
+      <p className={styles.text}>
+        Etter så mange år i bransjen, er det med god følelse å mene at det er
+        trygt å kjøpe brukt bil fra oss. Vi har lang erfaring og ordner alt i
+        forbindelse med registrering av din nye brukt bil. Vi tar gjerne
+        innbytte også i eventuelt dyrere bil, eller at vi kjøper din.
+      </p>
+      <p className={styles.text}>
+        Gunstig finansiering får du hos oss, som godkjent autoreg forhandler av
+        Statens vegvesen kan bilen leveres med skilter umiddelbart.
       </p>
 
-      <p className={styles.text}>
-        Midt mellom Kongsvinger og Elverum ligger Flisa Bil AS i Negardsvn 8 i
-        Flisa sentrum.
-      </p>
       <br />
       <ul>
         <li>
@@ -38,6 +43,9 @@ const TextSection = () => {
         </li>
         <li>
           <p className={styles.text}>Periodisk kjøretøykontroll/EU kontroll</p>
+        </li>
+        <li>
+          <p className={styles.text}>Dekkhotell</p>
         </li>
         <li>
           <p className={styles.text}>Godkjent av Statens Vegevesen</p>
