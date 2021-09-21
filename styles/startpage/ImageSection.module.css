@@ -87,7 +87,13 @@
     min-height: 70rem;
   }
 }
-@media screen and (max-height: 600px) {
+@media screen and (max-width: 450px) {
+  .container {
+    grid-template-rows: 2rem 15rem 8rem 20rem 20rem 20rem;
+    min-height: 80rem;
+  }
+}
+@media screen and (max-height: 300px) {
   .container {
     min-height: 240vh;
     grid-template-rows: 2rem 10rem 10rem 14rem;
